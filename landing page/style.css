@@ -1,0 +1,125 @@
+body {
+    background-color: #435B66;
+    /* background-color: #2D4356; */
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav {
+
+    position: absolute;
+    z-index: 1;
+    top: -118px;
+    left: -13px;
+    height: 294px;
+    width: 100vW;
+    background-color: #EAB2A0;
+    border: 3px solid white;
+    border-radius: 10% 28% 32% 58% / 19% 10% 85% 85%;
+}
+
+.navbar {
+    width: 100%;
+
+    position: absolute;
+    margin-top: -440px;
+    z-index: 2;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    /* margin-: 50px; */
+}
+
+li {
+    margin: 50px;
+    font-size: 25px;
+    color: #435B66;
+    font-family: 'Lora', serif;        }
+
+h2 {
+    margin-top: 393px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: wheat;
+}
+
+.lip1 {
+    border: 2px solid #EAB2A0;
+    background-color: #2D4356;
+
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 393px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 20em;
+    width: auto;
+    
+    /* background-color: aqua; */
+}
+
+.text1 {
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2 {
+    text-align: right;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: wheat;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lip2 {
+    margin-top: 70px;
+    padding: 20px;
+    margin-right: 150px;
+    justify-content: right;
+}
+
+.boximage img {
+    /* background-color: aqua; */
+    margin-top: 5px;
+    height: 400px;
+    width: auto;
+    margin-left: 25em;
+    /* border: 2px solid #EAB2A0; */
+    border: 2px solid #EAB2A0;
+    background-color: #2D4356;
+
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    background: #EAB2A0;
+    border: none;
+    color: #435B66;
+    height: 30px;
+    margin-top: 10px;
+    /* border-radius: 10px; */
+    font-size: 15px;
+}
